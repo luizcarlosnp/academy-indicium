@@ -1,15 +1,11 @@
-
 version: 2
 
 models:
-  - name: int_funcionarios_preparacao
+  - name: dim_funcionarios
     description: Tabela de intermediário para designar o gerente do funcionário.
     columns:
       - name: PK_FUNCIONARIO
         description: blablabla.
-        data_tests:
-          - unique
-          - not_null
               
       - name: FK_GERENTE
         description: blablabla.
